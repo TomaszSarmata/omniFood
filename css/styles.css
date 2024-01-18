@@ -14,9 +14,10 @@ Default: 400
 Default: 1
 
 --- 02 COLORS
+Go to maketintsandshades.com
 
 - Primary: #e67e22
-- Tints:
+- Tints: #fdf2e9
 - Shades:
 - Accents:
 - Grays: 
@@ -59,6 +60,10 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.section-hero {
+  background-color: #fdf2e9;
 }
 
 .hero {
