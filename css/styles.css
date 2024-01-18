@@ -57,11 +57,3 @@ body {
   font-weight: 400;
   color: #555;
 }
-
-.test {
-  max-width: 50rem;
-  background-color: red;
-  padding: 4rem;
-  color: #fff;
-  font-size: 2rem;
-}
