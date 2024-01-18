@@ -66,6 +66,7 @@ body {
   grid-template-columns: 1fr 1fr;
   max-width: 130rem;
   margin: 0 auto;
+  align-items: center;
 }
 
 .heading-primary {
