@@ -46,9 +46,21 @@ Go to uifaces.co for face / people images
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.test {
+  max-width: 50rem;
+  background-color: red;
+  padding: 4rem;
+  color: #fff;
+  font-size: 2rem;
 }
