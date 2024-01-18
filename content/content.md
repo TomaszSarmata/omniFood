@@ -133,13 +133,12 @@ Privacy & terms
 
 - Navigation
 - Hero
+- Featured in
 - Features
 - How it works
-- Diets
-- Meals
-- CTA
+- Meals (and list of diets)
 - Pricing
 - Gallery
 - Testimonials
-- Featured in
+- CTA
 - Footer
