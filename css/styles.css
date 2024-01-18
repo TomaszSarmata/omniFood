@@ -1,3 +1,44 @@
+/* 
+---HERE GOES THE DESIGN SYSTEM FOR THE WHOLE PROJECT---
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Font weights: 
+
+- Line heights:
+Default: 1
+
+--- 02 COLORS
+
+- Primary: #e67e22
+- Tints:
+- Shades:
+- Accents:
+- Grays: #555
+
+
+--- 03 IMAGES
+
+Go to unsplash.com for food / restaurant images
+Go to uifaces.co for face / people images
+
+
+--- 04 ICONS
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIOUS
+
+
+--- 07 WHITESPACE
+
+-- Spacing system (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+ */
+
 * {
   box-sizing: border-box;
   margin: 0;
