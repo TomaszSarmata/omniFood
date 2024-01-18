@@ -137,8 +137,8 @@ Privacy & terms
 - Features
 - How it works
 - Meals (and list of diets)
-- Pricing
 - Gallery
 - Testimonials
+- Pricing
 - CTA
 - Footer
