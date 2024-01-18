@@ -47,6 +47,7 @@ Go to uifaces.co for face / people images
 }
 
 html {
+  /*percentage of the users browser font-size settings*/
   font-size: 62.5%;
 }
 
