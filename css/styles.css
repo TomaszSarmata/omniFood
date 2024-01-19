@@ -14,7 +14,9 @@ Default: 400
 Default: 1
 
 --- 02 COLORS
+Go to opencolor.com
 Go to maketintsandshades.com
+Go to coolors.co (contrast check)
 
 - Primary: #e67e22
 - Tints: #fdf2e9
@@ -158,4 +160,9 @@ body {
 .delivered-text {
   font-size: 1.8rem;
   font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
 }
