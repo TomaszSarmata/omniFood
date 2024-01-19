@@ -141,11 +141,13 @@ body {
 .main-nav-list {
   list-style: none;
   display: flex;
+  align-items: center;
   gap: 3.2rem;
 }
 
 .main-nav-link:link,
 .main-nav-link:visited {
+  display: inline-block;
   text-decoration: none;
   color: #333;
   font-weight: 500;
@@ -156,6 +158,21 @@ body {
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #cf711f;
+}
+
+/* chaining classes to make sure the specificity below is greater than above (for the color of the font) */
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  display: inline-block;
+  background-color: #e67e22;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
 }
 
 /* ************************* */
