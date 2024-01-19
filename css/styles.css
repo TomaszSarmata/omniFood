@@ -18,7 +18,7 @@ Go to maketintsandshades.com
 
 - Primary: #e67e22
 - Tints: #fdf2e9
-- Shades:
+- Shades: #cf711f
 - Accents:
 - Grays: 
 #555
@@ -95,17 +95,29 @@ body {
 .btn:visited {
   display: inline-block;
   text-decoration: none;
-  background-color: #e67e22;
   font-size: 2rem;
-  color: #fff;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-  font-weight: 600;
 }
 
-.btn:hover,
-.btn:active {
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+}
+.btn--full:hover,
+.btn--full:active {
   background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #555;
+}
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
 }
 
 .hero-img {
