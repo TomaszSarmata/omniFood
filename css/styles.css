@@ -133,3 +133,23 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+.delivered-meals {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.delivered-imgs {
+  display: flex;
+}
+.delivered-imgs img {
+  height: 4.8rem;
+  width: 4.8rem;
+  border-radius: 50%;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
