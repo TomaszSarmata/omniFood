@@ -274,15 +274,15 @@ body {
   font-size: 50px;
 }
 
-.section-how div:nth-child(1) {
+.container div:nth-child(1) {
   background-color: aqua;
 }
-.section-how div:nth-child(2) {
+.container div:nth-child(2) {
   background-color: blue;
 }
-.section-how div:nth-child(3) {
+.container div:nth-child(3) {
   background-color: violet;
 }
-.section-how div:nth-child(4) {
+.container div:nth-child(4) {
   background-color: yellow;
 }
