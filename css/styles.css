@@ -215,6 +215,8 @@
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
+  /* that will hide sharp corners of the photo - saves writing a lot of code to round up corners of the images */
+  overflow: hidden;
 }
 
 .meal-title {
@@ -260,6 +262,4 @@
 
 .meal-img {
   width: 100%;
-  border-top-right-radius: 11px;
-  border-top-left-radius: 11px;
 }
