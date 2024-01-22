@@ -222,6 +222,7 @@
 
 .meal:hover {
   transform: translateY(-1rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
