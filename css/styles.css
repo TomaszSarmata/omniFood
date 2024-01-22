@@ -217,6 +217,11 @@
   border-radius: 11px;
   /* that will hide sharp corners of the photo - saves writing a lot of code to round up corners of the images */
   overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1rem);
 }
 
 .meal-content {
