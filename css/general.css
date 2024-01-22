@@ -186,3 +186,13 @@ body {
 strong {
   font-weight: 500;
 }
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #51cf66;
+  color: #333;
+  border-radius: 100px;
+}
