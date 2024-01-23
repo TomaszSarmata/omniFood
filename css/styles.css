@@ -317,6 +317,8 @@
 
 .section-testimonials {
   background-color: #fdf2e9;
+  display: grid;
+  grid-template-columns: 50fr 50fr;
 }
 
 .testimonials-container {
