@@ -341,3 +341,8 @@
   font-size: 1.6rem;
   color: #777;
 }
+
+.gallery-item img {
+  /* we set the display block to the gallery img to get rid of the white spaces between the images */
+  display: block;
+}
