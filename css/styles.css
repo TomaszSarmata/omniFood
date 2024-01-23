@@ -319,6 +319,8 @@
   background-color: #fdf2e9;
   display: grid;
   grid-template-columns: 55fr 45fr;
+  /* alic below will make sure that when we change the width of the screen the content will stay right in the middle with the same spacing between the images. Whitout it, the default setting for the entire gallery col would be stretch which would create excessive spacing between the images */
+  align-items: center;
 }
 
 .testimonials-container {
