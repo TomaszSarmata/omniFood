@@ -364,7 +364,6 @@
 }
 
 .pricing-plan {
-  background-color: #fdf2e9;
   border-radius: 11px;
   padding: 4.8rem;
   width: 75%;
@@ -372,6 +371,10 @@
 
 .pricing-plan--starter {
   justify-self: end;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
 }
 
 .plan-header {
