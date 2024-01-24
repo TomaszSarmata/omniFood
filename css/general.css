@@ -103,12 +103,17 @@ ul {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 6.4rem;
-  margin-bottom: 9.6rem;
+  /* margin-bottom: 9.6rem; */
 }
 
 /* to make sure that the if the  grid is the last  element in some container, it will not have this extra padding */
-.grid:last-child {
+/* .grid:last-child {
   margin-bottom: 0;
+} */
+
+/* here is even quicker way of achieving the same as above */
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
 }
 
 .grid--2-cols {
