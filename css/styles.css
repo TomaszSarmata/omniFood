@@ -519,11 +519,13 @@
   font-weight: 500;
   margin-bottom: 2rem;
 }
-.cta-form input {
+.cta-form input,
+.cta-form select {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
+  color: inherit; /*so that the input gets it as well (dark orange)*/
   border: none;
   background-color: #fdf2e9;
   border-radius: 9px;
