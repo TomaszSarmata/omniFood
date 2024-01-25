@@ -480,7 +480,20 @@
 }
 
 .cta-text-box {
+  color: #45260a;
+  padding: 6.4rem;
 }
+
+.cta .heading-secondary {
+  color: #45260a;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
