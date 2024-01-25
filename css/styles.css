@@ -478,3 +478,16 @@
 
   height: 50rem;
 }
+
+.cta-text-box {
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 152, 78, 0.35),
+      rgba(230, 126, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
