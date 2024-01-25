@@ -475,7 +475,7 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
   border-radius: 11px;
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-
+  overflow: hidden;
   height: 50rem;
 }
 
