@@ -184,6 +184,8 @@ ul {
   border-radius: 9px;
   /* always put the transition on the original state of the button/link/element */
   transition: all 0.3s;
+  border: none;
+  cursor: pointer;
 }
 
 .btn--full:link,
