@@ -215,6 +215,10 @@ ul {
 .btn--form {
   background-color: #45260a;
   color: #fdf2e9;
+  /* below to make sure it doesn't stretch vertically */
+  align-self: flex-end;
+  /* overritting padding */
+  padding: 1.2rem;
 }
 
 .link:link,
