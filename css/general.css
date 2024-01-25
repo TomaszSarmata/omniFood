@@ -184,8 +184,10 @@ ul {
   border-radius: 9px;
   /* always put the transition on the original state of the button/link/element */
   transition: all 0.3s;
+  /* below only necessary for the .btn */
   border: none;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .btn--full:link,
