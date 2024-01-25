@@ -212,6 +212,11 @@ ul {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
