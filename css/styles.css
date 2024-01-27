@@ -582,6 +582,16 @@
   margin-bottom: 4rem;
 }
 
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
 .footer-nav {
   list-style: none;
   display: flex;
