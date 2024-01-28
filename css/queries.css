@@ -18,6 +18,17 @@
   }
 }
 
+/* ************************* */
+/* BELOW 1200px (Landscape tablets) */
+/* ************************* */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px - so here we are basically scalling down the entire project default font size by 1px from 10px to 9px and so now from 1200px or less 1rem = only 9px*/
+    font-size: 56.25%;
+  }
+}
+
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
 
