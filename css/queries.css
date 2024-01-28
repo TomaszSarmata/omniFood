@@ -27,6 +27,14 @@
     /* 9px / 16px - so here we are basically scalling down the entire project default font size along with the white spaces (as those are based on rem units) by 1px from 10px to 9px and so now from 1200px or less 1rem = only 9px*/
     font-size: 56.25%;
   }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
 }
 
 /* - Font sizes (px)
