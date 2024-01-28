@@ -28,6 +28,11 @@
     font-size: 56.25%;
   }
 
+  .grid {
+    column-gap: 4.8;
+    row-gap: 6.4rem;
+  }
+
   .heading-secondary {
     font-size: 3.6rem;
   }
