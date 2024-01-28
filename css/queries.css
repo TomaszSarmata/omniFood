@@ -24,7 +24,7 @@
 
 @media (max-width: 75em) {
   html {
-    /* 9px / 16px - so here we are basically scalling down the entire project default font size by 1px from 10px to 9px and so now from 1200px or less 1rem = only 9px*/
+    /* 9px / 16px - so here we are basically scalling down the entire project default font size along with the white spaces (as those are based on rem units) by 1px from 10px to 9px and so now from 1200px or less 1rem = only 9px*/
     font-size: 56.25%;
   }
 }
