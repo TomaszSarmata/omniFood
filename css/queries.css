@@ -76,6 +76,10 @@
     text-align: center;
   }
 
+  .delivered-meals {
+    justify-content: center;
+  }
+
   .hero-img {
     width: 60%;
   }
