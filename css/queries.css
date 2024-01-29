@@ -86,6 +86,10 @@
   .hero-img {
     width: 60%;
   }
+
+  .logos img {
+    height: 2.4rem;
+  }
 }
 
 /* - Font sizes (px)
