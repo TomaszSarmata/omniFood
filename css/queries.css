@@ -66,6 +66,19 @@
     /* scaling down to 8px for the root font-size 8 / 16 = 0.5 = 50% */
     font-size: 50%;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-text-box,
+  .hero-image-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
 }
 
 /* - Font sizes (px)
