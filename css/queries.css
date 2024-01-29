@@ -90,6 +90,10 @@
   .logos img {
     height: 2.4rem;
   }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
 }
 
 /* - Font sizes (px)
