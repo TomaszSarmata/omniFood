@@ -140,6 +140,8 @@
     opacity: 0;
     /* 2) - make it unaccessible to mouse and keyboard */
     pointer-events: none;
+    /* 3) - hide it from the screen readers */
+    visibility: hidden;
   }
 
   /* so here we are going to use our extra class of nav-open as a parent element and target a child */
@@ -147,6 +149,17 @@
   /* below if .nav-open existst then we can apply opacity 1 on .main-nav */
   .nav-open .main-nav {
     opacity: 1;
+    /* when open we are bringing the settings to normal */
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
   }
 
   .main-nav-list {
