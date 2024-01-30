@@ -118,6 +118,7 @@
   }
 
   /* MOBILE NAVIGATION */
+
   .btn-mobile-nav {
     display: block;
   }
@@ -132,6 +133,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
+    /* hide the navigation by default on smaller screens so that it only opens when a user presses a btn. The problem with display none is that you can' do transitions on the element so you have to find a solution */
+    /* display: none; */
+    /* 1) - hide it visually */
+    opacity: 0;
+    /* 2) - make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+  }
+
+  /* so here we are going to use our extra class of nav-open as a parent element and target a child */
+
+  /* below if .nav-open existst then we can apply opacity 1 on .main-nav */
+  .nav-open .main-nav {
+    opacity: 1;
   }
 
   .main-nav-list {
