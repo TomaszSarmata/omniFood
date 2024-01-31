@@ -134,7 +134,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 1s ease-in;
     /* hide the navigation by default on smaller screens so that it only opens when a user presses a btn. The problem with display none is that you can' do transitions on the element so you have to find a solution */
     /* display: none; */
     /* 1) - hide it visually */
