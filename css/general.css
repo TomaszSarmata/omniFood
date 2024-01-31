@@ -83,13 +83,16 @@ Medium: 11px
 html {
   /*percentage of the users browser font-size settings*/
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
+  position: relative;
   font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
+  overflow-x: hidden;
 }
 
 ul {
