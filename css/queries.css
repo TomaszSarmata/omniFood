@@ -153,6 +153,7 @@
     /* when open we are bringing the settings to normal */
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
