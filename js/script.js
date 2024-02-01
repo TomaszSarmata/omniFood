@@ -1,3 +1,5 @@
+console.log("hello world");
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
