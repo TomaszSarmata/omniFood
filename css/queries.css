@@ -249,6 +249,10 @@
     height: 1.2rem;
   }
 
+  .section-how {
+    padding-bottom: 3.2rem;
+  }
+
   .step-img-box:nth-child(2) {
     grid-row: 1;
   }
@@ -258,6 +262,10 @@
 
   .step-img-box {
     transform: translateY(2.4rem);
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
   }
 
   /* .step-img-box:nth-child(2) {
