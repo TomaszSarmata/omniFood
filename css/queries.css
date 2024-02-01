@@ -273,6 +273,15 @@
     gap: 1.2rem;
   }
 
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    height: 32rem;
+    grid-row: 1;
+  }
+
   /* .step-img-box:nth-child(2) {
     grid-row: 1/2;
   }
