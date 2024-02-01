@@ -277,9 +277,14 @@
     grid-template-columns: 1fr;
   }
 
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
   .cta-img-box {
     height: 32rem;
     grid-row: 1;
+    background-position: 0 -60px;
   }
 
   /* .step-img-box:nth-child(2) {
