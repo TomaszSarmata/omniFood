@@ -218,6 +218,14 @@
 /* ************************* */
 
 @media (max-width: 35em) {
+  .grid {
+    row-gap: 4.8rem;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* - Font sizes (px)
