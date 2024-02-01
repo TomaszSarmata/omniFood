@@ -1,4 +1,11 @@
-console.log("hello world");
+function updateDate() {
+  let year = document.querySelector(".year");
+  let now = new Date();
+  let currentYear = now.getFullYear();
+  year.innerHTML = currentYear;
+}
+
+updateDate();
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
