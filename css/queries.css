@@ -180,6 +180,11 @@
 /* ************************* */
 
 @media (max-width: 44em) {
+  /* here we are siply getting rid off the 3 and 4 col layouts for smaller tablets */
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* - Font sizes (px)
