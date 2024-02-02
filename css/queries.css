@@ -124,7 +124,7 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.915);
+    background-color: rgba(255, 255, 255, 0.99);
     position: absolute;
     top: 0;
     left: 0;
@@ -134,7 +134,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 1s ease-in;
+    transition: all 0.6s ease-in;
     /* hide the navigation by default on smaller screens so that it only opens when a user presses a btn. The problem with display none is that you can' do transitions on the element so you have to find a solution */
     /* display: none; */
     /* 1) - hide it visually */
