@@ -38,6 +38,13 @@ allLinks.forEach((link) => {
         behavior: "smooth",
       });
     }
+
+    if (href !== "#" && href.startsWith("#")) {
+      console.log(href);
+      // our href will have a format of # and value i.e. #cta - so we can pass it to query selector as an id
+      const sectionEl = document.querySelector(href);
+      console.log(sectionEl);
+    }
   });
 });
 
