@@ -56,6 +56,30 @@ allLinks.forEach((link) => {
 
 // Adding sticky navigation dynamically
 
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    //we get access to array of entries
+    const ent = entries[0]; //we simply want the first one
+    if (ent.isIntersecting === false) {
+      const headerEl = document.querySelector(".header");
+      headerEl.classList.add("sticky");
+    } else {
+      const headerEl = document.querySelector(".header");
+      headerEl.classList.remove("sticky");
+    }
+  },
+  {
+    //options here: we are going to define the root - it means that we are going to observe our sectionHeroEl inside of the view port / as it moves through the view port
+    root: null,
+    //threshold will tell our program to fire an event as soon as the 0% of the  sectionHeroEl is inside of the viewport (so when it basically disappears as we scroll down)
+    threshold: 0,
+  }
+);
+
+obs.observe(sectionHeroEl);
+
 // function stickyNavOn() {
 //   const headerEl = document.querySelector(".header");
 //   headerEl.classList.add("sticky");
