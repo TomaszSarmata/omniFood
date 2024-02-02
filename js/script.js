@@ -1,3 +1,17 @@
+//function to open and close the mobile navigation
+function toggleMobileNav() {
+  const headerEl = document.querySelector(".header");
+
+  const mobileNavEl = document.querySelector(".btn-mobile-nav");
+
+  mobileNavEl.addEventListener("click", () => {
+    headerEl.classList.toggle("nav-open");
+  });
+}
+
+toggleMobileNav();
+
+//updating the date in the footer
 function updateDate() {
   let yearEl = document.querySelector(".year");
   let now = new Date();
