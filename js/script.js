@@ -21,6 +21,26 @@ function updateDate() {
 
 updateDate();
 
+// Smooth scrolling animation
+
+const allLinks = document.querySelectorAll("a:link");
+
+allLinks.forEach((link) => {
+  link.addEventListener("click", (e) => {
+    //to prevent default scrolling
+    e.preventDefault();
+    const href = link.getAttribute("href");
+
+    //scroll back to the top
+    if (href === "#") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  });
+});
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
