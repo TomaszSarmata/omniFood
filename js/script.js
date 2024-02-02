@@ -63,11 +63,9 @@ const obs = new IntersectionObserver(
     //we get access to array of entries
     const ent = entries[0]; //we simply want the first one
     if (ent.isIntersecting === false) {
-      const headerEl = document.querySelector(".header");
-      headerEl.classList.add("sticky");
+      document.body.classList.add("sticky");
     } else {
-      const headerEl = document.querySelector(".header");
-      headerEl.classList.remove("sticky");
+      document.body.classList.remove("sticky");
     }
   },
   {
