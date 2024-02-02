@@ -1,8 +1,8 @@
 function updateDate() {
-  let year = document.querySelector(".year");
+  let yearEl = document.querySelector(".year");
   let now = new Date();
   let currentYear = now.getFullYear();
-  year.innerHTML = currentYear;
+  yearEl.textContent = currentYear;
 }
 
 updateDate();
