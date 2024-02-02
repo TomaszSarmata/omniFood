@@ -39,12 +39,14 @@ allLinks.forEach((link) => {
       });
     }
 
+    //scroll to other links
     if (href !== "#" && href.startsWith("#")) {
       // our href will have a format of # and value i.e. #cta - so we can pass it to query selector as an id
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
+    //close mobile navigation
     if (link.classList.contains("main-nav-link")) {
       const headerEl = document.querySelector(".header");
       headerEl.classList.toggle("nav-open");
