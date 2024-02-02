@@ -2,9 +2,9 @@
 function toggleMobileNav() {
   const headerEl = document.querySelector(".header");
 
-  const mobileNavEl = document.querySelector(".btn-mobile-nav");
+  const btnNav = document.querySelector(".btn-mobile-nav");
 
-  mobileNavEl.addEventListener("click", () => {
+  btnNav.addEventListener("click", () => {
     headerEl.classList.toggle("nav-open");
   });
 }
