@@ -11,7 +11,7 @@ function toggleMobileNav() {
 
 toggleMobileNav();
 
-//updating the date in the footer
+//updating the current year in the footer
 function updateDate() {
   let yearEl = document.querySelector(".year");
   let now = new Date();
