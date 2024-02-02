@@ -54,6 +54,27 @@ allLinks.forEach((link) => {
   });
 });
 
+// Adding sticky navigation dynamically
+
+// function stickyNavOn() {
+//   const headerEl = document.querySelector(".header");
+//   headerEl.classList.add("sticky");
+// }
+// function stickyNavOff() {
+//   const headerEl = document.querySelector(".header");
+//   headerEl.classList.remove("sticky");
+// }
+
+// window.addEventListener("scroll", function () {
+//   let lastScrollPosition = 0;
+//   const currentScrollPosition = document.documentElement.scrollTop;
+//   if (currentScrollPosition < lastScrollPosition) {
+//     //toggles on
+//     stickyNavOn();
+//     lastScrollPosition = currentScrollPosition;
+//   }
+// });
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
