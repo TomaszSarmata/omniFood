@@ -84,6 +84,7 @@ html {
   /*percentage of the users browser font-size settings*/
   font-size: 62.5%;
   overflow-x: hidden;
+  /* does not work on safari nor on edge. have to use js */
   /* scroll-behavior: smooth; */
 }
 
