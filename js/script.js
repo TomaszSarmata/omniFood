@@ -73,6 +73,8 @@ const obs = new IntersectionObserver(
     root: null,
     //threshold will tell our program to fire an event as soon as the 0% of the  sectionHeroEl is inside of the viewport (so when it basically disappears as we scroll down)
     threshold: 0,
+    //here we are offsetting the trigger by 80px so that the navbar will appear 80px before the entrie section disappears from the vp
+    rootMargin: "-80px",
   }
 );
 
