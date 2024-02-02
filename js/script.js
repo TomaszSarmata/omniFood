@@ -44,6 +44,11 @@ allLinks.forEach((link) => {
       const sectionEl = document.querySelector(href);
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
+
+    if (link.classList.contains("main-nav-link")) {
+      const headerEl = document.querySelector(".header");
+      headerEl.classList.toggle("nav-open");
+    }
   });
 });
 
