@@ -556,10 +556,11 @@
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
-              <form action="#" class="cta-form">
+              <form name="sign-up" netlify class="cta-form">
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
+                    name="full-name"
                     type="text"
                     id="full-name"
                     required
@@ -571,7 +572,7 @@
                   <input
                     required
                     type="email"
-                    name=""
+                    name="email"
                     id="email"
                     placeholder="me@example.com"
                   />
@@ -579,7 +580,7 @@
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select name="" id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <option value="">Please select one option:</option>
                     <option value="friends">Friends and Family</option>
                     <option value="youtube">Youtube</option>
